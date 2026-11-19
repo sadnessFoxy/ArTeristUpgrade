@@ -1,0 +1,22 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-turhy" at "2026-11-16T10:58:18.2887829Z"
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-16T10:58:18Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master
+-executeMethod
+ProjectUpgrade.RunBatch
+-logFile
+C:/Users/turhy/Downloads/AR-Tetris-master/upgrade-logs/offline1.log
+Successfully changed project path to: C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master
+C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master
+Exiting without the bug reporter. Application will terminate with return code 1

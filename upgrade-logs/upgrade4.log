@@ -1,0 +1,508 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 15676 MB
+[Licensing::IpcConnector] Channel LicenseClient-turhy doesn't exist
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-16T10:34:43Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 3764)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master
+-executeMethod
+ProjectUpgrade.RunBatch
+-logFile
+C:/Users/turhy/Downloads/AR-Tetris-master/upgrade-logs/upgrade4.log
+Successfully changed project path to: C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master
+C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [35044]  Target information:
+
+Player connection [35044]  * "[IP] 172.21.224.1 [Port] 55504 [Flags] 2 [Guid] 3679088454 [EditorId] 3679088454 [Version] 1048832 [Id] WindowsEditor(7,Foxy_in_love) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35044]  * "[IP] 192.168.1.67 [Port] 55504 [Flags] 2 [Guid] 3679088454 [EditorId] 3679088454 [Version] 1048832 [Id] WindowsEditor(7,Foxy_in_love) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35044] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-turhy, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-turhy" at "2026-11-16T10:34:43.8291843Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3764, path: "C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Package Manager] Connected to IPC stream "Upm-240" after 0.5 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              7eedc96d05ee4ee98026b67bccd26bf3
+  Correlation Id:          0253151c70c635617ed37b00bbdb2a27
+  External correlation Id: 1952510167103757374
+  Machine Id:              ck6K9N+OMzsdsSneRWyVY+oNNcw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-turhy" (connect: 0.57s, validation: 0.31s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-turhy-notifications" at "2026-11-16T10:34:44.2177426Z"
+[Licensing::Module] Connected to LicensingClient (PId: 3764, launch time: 0.01, total connection time: 0.95s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968021215531-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.05s
+[Licensing::Module] Licensing is initialized (took 0.19s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 379 unused hashed content files
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.009545 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1731ms
+	BeginReloadAssembly (233ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (224ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (330ms)
+				TypeCache.ScanAssembly (310ms)
+	FinalizeReload (872ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (449ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 47 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.12 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.xr.arcore@6.5.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.arcore@faa8081af93f)
+    com.unity.xr.arfoundation@6.5.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.arfoundation@13d2457b468b)
+    com.unity.xr.arkit@6.5.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.arkit@f7ae96e6506f)
+    com.unity.xr.management@4.5.4 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.management@e3a3882b360a)
+    com.unity.xr.core-utils@2.6.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.editorcoroutines@1.1.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.test-framework@1.7.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.director@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.video@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.mathematics@1.4.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+[Subsystems] Looking for new subsystems at path C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.arfoundation@13d2457b468b
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.arfoundation@13d2457b468b/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master/Assets
+[Subsystems] Discovering subsystems at path C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master\Library\PackageCache\com.unity.xr.arfoundation@13d2457b468b
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.arfoundation@13d2457b468b/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@13d2457b468b/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  displays in Library/PackageCache/com.unity.xr.arfoundation@13d2457b468b/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'meshings' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@13d2457b468b/Runtime/UnitySubsystemsManifest.json
+[Package Manager] Done registering packages in 0.04 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\turhy\Downloads\AR-Tetris-master\AR-Tetris-master
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 55.1749ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 4s515ms
+[616/619    4s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Tetris Template\Editor\WelcomeInfo.cs(48,3): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+
+Assets\Tetris Template\Editor\WelcomeInfo.cs(49,3): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+
+Assets\Tetris Template\Editor\WelcomeInfo.cs(66,3): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+[617/619    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[618/619    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (4.45 seconds), 3 items updated, 619 evaluated
+Assets\Tetris Template\Editor\WelcomeInfo.cs(48,3): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+Assets\Tetris Template\Editor\WelcomeInfo.cs(49,3): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+Assets\Tetris Template\Editor\WelcomeInfo.cs(66,3): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+AssetDatabase: script compilation time: 5.743046s
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 4.11 ms, found 1 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.266 seconds
+Domain Reload Profiling: 2714ms
+	BeginReloadAssembly (598ms)
+		DisableScriptedObjects (61ms)
+		CreateAndSetChildDomain (220ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (685ms)
+		LoadAssemblies (499ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (91ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1268ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Starting new worker id: 0 with log in C:/Users/turhy/Downloads/AR-Tetris-master/AR-Tetris-master/Logs/AssetImportWorkerHW0.log
+Refreshing native plugins compatible for Editor in 5.09 ms, found 1 plugins.
+
+Asset Pipeline Refresh (id=c21d37dcdb7395944b3ab17e3d25ad1b): Total: 9.478 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1867 ms
+		Asset DB Callback time: managed=193 ms, native=57 ms
+		Scripting: domain reloads=1, domain reload time=1534 ms, compile time=5747 ms, other=78 ms
+		Project Asset Count: scripts=749, non-scripts=725
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 47.770ms
+	ApplyChangesToAssetFolders: 1.040ms
+	Scan: 222.351ms
+	Collect global state as custom dependencies: 21.897ms
+	OnSourceAssetsModified: 1.808ms
+	CategorizeScriptCompilationAssets: 29.963ms
+	ProcessAssetsWithTransientArtifactChanges: 67.415ms
+	CategorizeAssets: 28.264ms
+	CompileScripts: 5747.265ms
+	ImportOutOfDateAssets: 1320.900ms (1290.018ms without children)
+		UnloadImportedAssets: 0.261ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.400ms
+		ImportSchedulerStart: 30.216ms
+	PostProcessAllAssets: 196.039ms
+		VCAutoAddAssetPostprocess 1.716ms
+		XRBuildSystem.XRAssetImported 1.165ms
+		MonoPostProcessAllAssets: 192.394ms
+			AssetPostprocessor.OnPostprocessAllAssets 55.800ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 30.512ms
+			SyncVS.PostprocessSyncProject 23.973ms
+			AssetCallbacks.OnPostprocessAllAssets 16.407ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 15.972ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.567ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 5.250ms
+			AssetChangedListener.OnPostprocessAllAssets 4.984ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.198ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.599ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.392ms
+			EnvironmentAssetPostprocessor.OnPostprocessAllAssets 1.306ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.026ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.966ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.900ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.732ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.698ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.553ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.490ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.477ms
+			AssetEvents.OnPostprocessAllAssets 0.466ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.432ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.302ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.287ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.284ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.248ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.214ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.204ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.193ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.161ms
+	PostAssetChangesProfiler: 8.864ms
+	UnloadStreamsBegin: 2.337ms
+	PersistCurrentRevisions: 0.064ms
+	GenerateScriptTypeHashes: 6.205ms
+	GenerateScriptTypeSerializationHashes: 12.071ms
+	Untracked: 1771.399ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 7.813ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ARTetris
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2854 unused Assets / (6.5 MB). Loaded Objects now: 3616.
+Memory consumption went from 279.5 MB to 273.0 MB.
+Total: 17.234100 ms (FindLiveObjects: 0.407300 ms CreateObjectMapping: 0.995100 ms MarkObjects: 10.224700 ms  DeleteObjects: 5.600100 ms)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+[Upgrade] Block material uses shader Standard
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectUpgrade:CreateBlockMaterial () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:73)
+ProjectUpgrade:Run () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:29)
+ProjectUpgrade:RunBatch () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:40)
+
+(Filename: Assets/Tetris Template/Editor/ProjectUpgrade.cs Line: 73)
+
+Opening scene 'Assets/Tetris Template/Scenes/GamePlay.unity'
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Tetris Template/Scenes/GamePlay.unity'
+	Deserialize:            84.476 ms
+	Integration:            64.312 ms
+	Integration of assets:  2.409 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   151.222 ms
+Unloading 4 unused Assets / (6.5 KB). Loaded Objects now: 5207.
+Memory consumption went from 267.8 MB to 267.8 MB.
+Total: 12.294900 ms (FindLiveObjects: 0.665500 ms CreateObjectMapping: 0.623400 ms MarkObjects: 10.915800 ms  DeleteObjects: 0.088200 ms)
+
+Importing 'GUID: 893476cf2b38a4e4290fc63b0ace72c5 - Path: Assets/Tetris Template/Resources/Block3DMaterial.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 893476cf2b38a4e4290fc63b0ace72c5' -> (Import Result ID: 'a52442b0790940bd66bb74720c06e2cc') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=25fabea48a1a78cc3f60fcb224b2ce22 DependenciesID=393635b791a0b93ec4c464db56b6dc82 StaticDependenciesID=7c594066242e7ab5243fe71f2d6757e3 
+Refreshing native plugins compatible for Editor in 4.44 ms, found 1 plugins.
+Asset Pipeline Refresh (id=1eaf49278e295f8419548238d7f5a283): Total: 0.071 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 857ddcb0d616b8e48ad88d15d2ca921a - Path: Assets/Tetris Template/Scenes/GamePlay.unity' with importer (DefaultImporter)
+Imported 'GUID: 857ddcb0d616b8e48ad88d15d2ca921a' -> (Import Result ID: '07581fafb3d765a62f27a850cb75aa24') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=7116001c9d830133946d06be2f7a3582 DependenciesID=d73268ca18fd5ed29d877a7bec3433d8 StaticDependenciesID=72e270bc17b6fc31aed56d5379c19893 
+Refreshing native plugins compatible for Editor in 3.92 ms, found 1 plugins.
+Asset Pipeline Refresh (id=27d70949e9e2d834198357f7c0fa2ada): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Tetris Template/Scenes/AR.unity'
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+LightingSettings: switching bake backend from 2 to 1.
+Loaded scene 'Assets/Tetris Template/Scenes/AR.unity'
+	Deserialize:            47.597 ms
+	Integration:            26.923 ms
+	Integration of assets:  0.240 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   74.797 ms
+Unloading 140 unused Assets / (15.5 MB). Loaded Objects now: 4927.
+Memory consumption went from 286.9 MB to 271.4 MB.
+Total: 12.869400 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.387100 ms MarkObjects: 11.727000 ms  DeleteObjects: 0.358300 ms)
+
+Can't remove ARSessionOrigin (Script) because ARRaycastManager (Script), ARRaycastManager (Script), ARPlaneManager (Script), ARPlaneManager (Script) depends on it
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+ProjectUpgrade:RemoveComponentByTypeName (UnityEngine.GameObject,string) (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:187)
+ProjectUpgrade:UpgradeARScene () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:99)
+ProjectUpgrade:Run () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:31)
+ProjectUpgrade:RunBatch () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:40)
+
+[Assets/Tetris Template/Editor/ProjectUpgrade.cs line 99]
+
+[Upgrade] Removed UnityEngine.XR.ARFoundation.ARSessionOrigin from 'AR Session Origin'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectUpgrade:RemoveComponentByTypeName (UnityEngine.GameObject,string) (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:188)
+ProjectUpgrade:UpgradeARScene () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:99)
+ProjectUpgrade:Run () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:31)
+ProjectUpgrade:RunBatch () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:40)
+
+(Filename: Assets/Tetris Template/Editor/ProjectUpgrade.cs Line: 188)
+
+[Upgrade] Removed UnityEngine.SpatialTracking.TrackedPoseDriver from 'AR Camera'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectUpgrade:RemoveComponentByTypeName (UnityEngine.GameObject,string) (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:188)
+ProjectUpgrade:UpgradeARScene () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:100)
+ProjectUpgrade:Run () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:31)
+ProjectUpgrade:RunBatch () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:40)
+
+(Filename: Assets/Tetris Template/Editor/ProjectUpgrade.cs Line: 188)
+
+[Upgrade] XROrigin set up on AR Session Origin
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectUpgrade:SetupXROrigin (UnityEngine.GameObject,UnityEngine.Camera) (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:119)
+ProjectUpgrade:UpgradeARScene () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:102)
+ProjectUpgrade:Run () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:31)
+ProjectUpgrade:RunBatch () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:40)
+
+(Filename: Assets/Tetris Template/Editor/ProjectUpgrade.cs Line: 119)
+
+Importing 'GUID: 4aa29a95d38f046a699d40eb96808d4f - Path: Assets/Tetris Template/Scenes/AR.unity' with importer (DefaultImporter)
+Imported 'GUID: 4aa29a95d38f046a699d40eb96808d4f' -> (Import Result ID: 'c30e7f2b940fe945093fca4cba4b063f') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=8ccd73768a5d3c62d98ce3b503e9a924 DependenciesID=027c6baf93c472ba76b55b0cf0a9a33b StaticDependenciesID=1ceb84da5fc01119cb26e841ee5403e8 
+Refreshing native plugins compatible for Editor in 4.42 ms, found 1 plugins.
+Asset Pipeline Refresh (id=2bfbe465d7c9282438a0886083a5444d): Total: 0.068 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Upgrade] Done.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectUpgrade:Run () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:33)
+ProjectUpgrade:RunBatch () (at Assets/Tetris Template/Editor/ProjectUpgrade.cs:40)
+
+(Filename: Assets/Tetris Template/Editor/ProjectUpgrade.cs Line: 33)
+
+MonoPathRemapper: Attempts to remap: 8293; Successful remaps: 0
+Serialized file version minimum: 23, current 23
+Worker ready: AssetImportWorkerHW0 0
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 after 2247 ms: Could not connect to server
+Killing ADB server in 2,1390451 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-turhy-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-turhy channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 00000000000040A4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008D8C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000040A4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008D8C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3364
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794825303107,"processId":240,"allocatedMemory":13612159,"memoryLabels":[{"Default":206781},{"Permanent":15516},{"NewDelete":65875},{"Thread":4197640},{"Manager":33829},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":848871},{"Material":24},{"GfxDevice":55328},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":6232},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":689868},{"BaseObject":1622024},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":6966},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":20858},{"StaticString":3808},{"Utility":2673782},{"Curl":2559},{"PoolAlloc":2168},{"AI":80},{"TypeTree":20997},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":9800},{"WebRequest":4568},{"VR":47258},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":192},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":72},{"CoreStats":13688},{"Identifiers":6768},{"Gui":128},{"EditorUtility":101142},{"VersionControl":8},{"Undo":931},{"AssetDatabase":2457179},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":38905},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3500},{"Windowing":456},{"Licensing":1232},{"AssetReference":32},{"IPCStream":32}]}
